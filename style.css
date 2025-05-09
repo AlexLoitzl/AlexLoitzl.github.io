@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e4f0eb;
+    margin: 0;
+    padding: 0;
+
+    background-image: radial-gradient(circle, #999, 1px, transparent 1px);
+    background-size: 3px 40px; /* Dots spaced 10px apart horizontally and 20px vertically */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 0px 0px; /* top right bottom left */
+    background-color: #e4f0eb;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.field {
+    margin: 0 20px;
+}
+
+.field-image {
+    width: auto;
+    height: 30px; /* Adjust this depending on your image size */
+}
+
+.separator {
+    margin: 0 0;
+}
+
+.separator-image {
+    width: auto;
+    height: 30px; /* Adjust this depending on your separator's size */
+}
