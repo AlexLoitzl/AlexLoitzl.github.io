@@ -27,6 +27,18 @@ body {
     align-items: center;
 }
 
+.button {
+    position: absolute;
+    left: 3px;
+}
+
+.button-image {
+    height: 30px;
+    width: auto;
+    margin: 5px px;
+}
+
+
 .field {
     margin: 0 20px;
 }
@@ -65,21 +77,25 @@ body {
 }
 
 
-/* ****************************************************************************** */
-/* ************************************ Body ************************************ */
-/* ****************************************************************************** */
+/* *************************************************************************** */
+/* ********************************** Body *********************************** */
+/* *************************************************************************** */
 
 /* TODO: Probably container, body, content redundant */
 .container {
     width: 100%; /* Take full width on small screens */
-    max-width: 1200px; /* Maximum width for larger screens */
+    align-items: center;
     margin: 0 auto; /* Center the content horizontally */
     padding: 0; /* Add padding around the content */
 }
 
 .content {
+    margin: 0 auto;
+    max-width: 1000px; /* Maximum width for larger screens */
     padding-top: 70px 10px 10px 10px;
 }
+
+/* ********************************** Intro ********************************** */
 
 .intro {
     display: flex;
@@ -87,10 +103,11 @@ body {
     justify-content: space-around;
     padding: 75px 20px 20px 20px;
     /* margin: 20px 0px; */
-    /* border: 2px solid #000; */
+    border: 2px solid #000;
 }
 
 .intro-image {
+    border: 2px solid #000;
     width: 30%; /* Adjust width of the image container */
 }
 
@@ -102,4 +119,68 @@ body {
 
 .intro-text {
     width: 50%; /* Adjust width of the text container */
+}
+
+/* ****************************** Publications ******************************* */
+
+.publications {
+    padding: 20px 7.5%;
+    align-items: center;
+    margin: 10px 0 30px 0;
+    border: 2px solid #000;
+}
+
+.publications-heading {
+    border: 2px solid #000;
+    width: 30%; /* Adjust width of the image container */
+}
+
+.publications-heading img {
+    max-width: 100%;
+    height: auto;
+    /* border: 2px solid #000; */
+}
+
+.theses-heading {
+    border: 2px solid #000;
+    width: 15%;
+    margin-top: 40px;
+}
+
+.theses-heading img {
+    max-width: 100%;
+    height: auto;
+    /* border: 2px solid #000; */
+}
+
+/* ********************************** Stuff ********************************** */
+
+.stuff {
+    padding: 20px 7.5%;
+    align-items: center;
+    margin: 10px 0 30px 0;
+    border: 2px solid #000;
+}
+
+.stuff-heading {
+    border: 2px solid #000;
+    width: 30%; /* Adjust width of the image container */
+}
+
+.stuff-heading img {
+    max-width: 100%;
+    height: auto;
+    /* border: 2px solid #000; */
+}
+
+/* *************************************************************************** */
+/* ********************************* General ********************************* */
+/* *************************************************************************** */
+
+li {
+    margin-bottom: 10px;
+}
+
+section {
+  scroll-margin-top: 40px; /* Match your header height */
 }
