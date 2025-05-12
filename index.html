@@ -7,42 +7,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="header-content">
-      <!-- Field 1 -->
-      <div class="field">
-        <img src="images/home.svg" alt="Home" class="field-image">
+  <div class="container">
+
+    <!-- ****************************************************************************** -->
+    <!-- *********************************** Header *********************************** -->
+    <!-- ****************************************************************************** -->
+    <header class="header">
+      <div class="header-content">
+        <!-- Field 1 -->
+        <div class="field">
+          <a href="#home">
+            <div class="image-container">
+              <img src="images/home.svg" alt="Home" class="field-image">
+              <img src="images/home_highlight.svg" alt="Overlay Image" class="overlay">
+            </div>
+          </a>
+        </div>
+
+        <!-- Separator -->
+        <div class="separator">
+          <img src="images/separator.svg" alt=" | " class="separator-image">
+        </div>
+
+        <!-- Field 2 -->
+        <div class="field">
+          <img src="images/publications.svg" alt="Publications" class="field-image">
+        </div>
+
+        <!-- Separator -->
+        <div class="separator">
+          <img src="images/separator.svg" alt=" | " class="separator-image">
+        </div>
+
+        <!-- Field 3 -->
+        <div class="field">
+          <img src="images/stuff.svg" alt="Stuff" class="field-image">
+        </div>
       </div>
+    </header>
 
-      <!-- Separator -->
-      <div class="separator">
-        <img src="images/separator.svg" alt=" | " class="separator-image">
+    <!-- ****************************************************************************** -->
+    <!-- ************************************ Body ************************************ -->
+    <!-- ****************************************************************************** -->
+    <section class="intro" id="home">
+      <div class="intro-image">
+          <img src="images/me.png" alt="Introductory Image">
       </div>
-
-      <!-- Field 2 -->
-      <div class="field">
-        <img src="images/publications.svg" alt="Publications" class="field-image">
+      <div class="intro-text">
+          <h2>Introductory Text</h2>
+          <p>This is where you can add some introductory text about your website or its content. It can be a short paragraph or a few sentences that help users understand what your website is about.</p>
       </div>
-
-      <!-- Separator -->
-      <div class="separator">
-        <img src="images/separator.svg" alt=" | " class="separator-image">
-      </div>
-
-      <!-- Field 3 -->
-      <div class="field">
-        <img src="images/stuff.svg" alt="Stuff" class="field-image">
-      </div>
-    </div>
-  </header>
-
-  <!-- HOME -->
-wip
-
-  <!-- PUBLICATIONS -->
-
-
-  <!-- STUFF -->
+    </section>
+  </div>
 
 </body>
 </html>
