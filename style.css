@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e9f5f0;
+    background-color: #edf7f3;
     margin: 0;
     padding: 0;
 
@@ -13,7 +13,7 @@ body {
 /* ****************************************************************************** */
 .header {
     position: fixed;
-    background-color: #e9f5f0;
+    background-color: #edf7f3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@ body {
 
 .field-image {
     width: auto;
-    height: 30px; /* Adjust this depending on your image size */
+    height: 35px; /* Adjust this depending on your image size */
     margin: 2px 5px;
 }
 
@@ -103,11 +103,11 @@ body {
     justify-content: space-around;
     padding: 75px 20px 20px 20px;
     /* margin: 20px 0px; */
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
 }
 
 .intro-image {
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     width: 30%; /* Adjust width of the image container */
 }
 
@@ -127,11 +127,11 @@ body {
     padding: 20px 7.5%;
     align-items: center;
     margin: 10px 0 30px 0;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
 }
 
 .publications-heading {
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     width: 30%; /* Adjust width of the image container */
 }
 
@@ -142,7 +142,7 @@ body {
 }
 
 .theses-heading {
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     width: 15%;
     margin-top: 40px;
 }
@@ -159,12 +159,12 @@ body {
     padding: 20px 7.5%;
     align-items: center;
     margin: 10px 0 30px 0;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
 }
 
 .stuff-heading {
-    border: 2px solid #000;
-    width: 30%; /* Adjust width of the image container */
+    /* border: 2px solid #000; */
+    width: 50%; /* Adjust width of the image container */
 }
 
 .stuff-heading img {
@@ -183,4 +183,18 @@ li {
 
 section {
   scroll-margin-top: 40px; /* Match your header height */
+}
+
+a {
+  color: #586de6;          /* Normal link */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover :active{
+  color: #c23132;           /* When mouse hovers/is clicked */
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #c07fd2;        /* After link is visited */
 }
